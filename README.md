@@ -20,19 +20,36 @@ Or install directly:
 
 ## Usage
 
+### Fixing Architectural Smells
+
 1. Run archlint to detect smells:
 
 ```bash
 npx @archlinter/cli
 ```
 
-2. Use the skill to fix detected issues:
+2. Use the fix skill:
 
 ```
-/archlint:archlint-fix
+/archlint:fix
 ```
 
-The skill will guide you through understanding and fixing the detected architectural smells.
+The skill will guide you through understanding and fixing detected smells.
+
+### Configuring Archlint
+
+For initial setup, false positives, or adjusting detector settings:
+
+```
+/archlint:config
+```
+
+Helps with:
+- Initial project setup
+- Fixing false positives
+- Configuring layer architecture
+- Adjusting detector thresholds
+- Setting up ignore patterns
 
 ## Supported Smells
 
