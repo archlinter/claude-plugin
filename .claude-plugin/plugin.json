@@ -1,0 +1,24 @@
+{
+  "name": "archlint",
+  "version": "0.16.0",
+  "description": "Fix architectural smells detected by archlint. Guidance for resolving cycles, god modules, coupling issues, dead code, and 30+ other architecture problems in TypeScript/JavaScript projects.",
+  "author": {
+    "name": "Archlinter",
+    "url": "https://github.com/archlinter"
+  },
+  "homepage": "https://archlint.dev",
+  "repository": "https://github.com/archlinter/claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "architecture",
+    "linter",
+    "code-quality",
+    "refactoring",
+    "typescript",
+    "javascript",
+    "cycles",
+    "coupling",
+    "dead-code",
+    "code-smells"
+  ]
+}
