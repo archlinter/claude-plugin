@@ -1,0 +1,41 @@
+{
+  "name": "archlint",
+  "displayName": "Archlint Assistant",
+  "description": "Architecture linting skills for TypeScript/JavaScript projects. Fix architectural smells (cycles, god modules, dead code) and configure archlint for your project.",
+  "version": "1.0.0",
+  "author": "archlinter",
+  "repository": "https://github.com/archlinter/claude-plugin",
+  "tags": [
+    "architecture",
+    "linting",
+    "typescript",
+    "javascript",
+    "refactoring",
+    "code-quality"
+  ],
+  "skills": [
+    {
+      "name": "fix",
+      "description": "Fix architectural smells detected by archlint (cycles, god modules, dead code, etc.)",
+      "triggers": [
+        "archlint output",
+        "circular dependency",
+        "god module",
+        "architectural smell",
+        "coupling problem"
+      ]
+    },
+    {
+      "name": "config",
+      "description": "Configure archlint for your project (initial setup, false positives, layer architecture, detector settings)",
+      "triggers": [
+        "archlint configuration",
+        "false positive",
+        "setup archlint",
+        "layer architecture",
+        "ignore patterns"
+      ]
+    }
+  ],
+  "readme": "https://raw.githubusercontent.com/archlinter/claude-plugin/master/README.md"
+}
