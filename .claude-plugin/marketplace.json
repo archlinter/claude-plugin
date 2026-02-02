@@ -1,33 +1,22 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "archlint-marketplace",
+  "version": "1.0.0",
+  "description": "Architecture linting skills for TypeScript/JavaScript projects",
   "owner": {
     "name": "archlinter",
-    "url": "https://github.com/archlinter"
+    "email": "noreply@archlinter.dev"
   },
   "plugins": [
     {
       "name": "archlint",
-      "displayName": "Archlint Assistant",
       "description": "Architecture linting skills for TypeScript/JavaScript projects. Fix architectural smells (cycles, god modules, dead code) and configure archlint for your project.",
       "version": "1.0.0",
-      "repository": "https://github.com/archlinter/claude-plugin",
-      "tags": [
-        "architecture",
-        "linting",
-        "typescript",
-        "javascript",
-        "refactoring",
-        "code-quality"
-      ],
-      "skills": [
-        {
-          "name": "fix",
-          "description": "Fix architectural smells detected by archlint (cycles, god modules, dead code, etc.)"
-        },
-        {
-          "name": "config",
-          "description": "Configure archlint for your project (initial setup, false positives, layer architecture, detector settings)"
-        }
-      ]
+      "source": "./skills",
+      "category": "development",
+      "author": {
+        "name": "archlinter"
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "archlint",
-  "version": "0.16.0",
+  "version": "1.0.0",
   "description": "Fix architectural smells detected by archlint. Guidance for resolving cycles, god modules, coupling issues, dead code, and 30+ other architecture problems in TypeScript/JavaScript projects.",
   "author": {
     "name": "Archlinter",
